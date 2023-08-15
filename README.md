@@ -10,7 +10,7 @@ osascript install_ipa.scpt ~/temp/test.ipa
 
 ## Features
 - [x] Automatically install single IPA file
-- [] Automatically batch install IPA files
+- [ ] Automatically batch install IPA files
 
 ## Demo
 ![Demo](demo.gif)
