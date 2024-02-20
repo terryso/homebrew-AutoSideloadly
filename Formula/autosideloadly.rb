@@ -2,7 +2,7 @@ class Autosideloadly < Formula
     desc "AutoSideloadly is a tool that allows you to automatically sideload IPA files to your iOS device using Sideloadly"
     homepage "https://github.com/terryso/AutoSideloadly"
     url "https://github.com/terryso/homebrew-AutoSideloadly/archive/refs/tags/0.0.1.tar.gz"
-    sha256 "d3557ae7e7db7dac0f52695af9e9802dc7f4768ff19075fed4b6d48f28cca412"
+    sha256 "e4ab2fb026b903da7f1a26e67e16446c16f46c4ec1d1ac106f0c85a693db3ac1"
   
     def install
       bin.install "install_ipa"
