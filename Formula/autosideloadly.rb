@@ -6,6 +6,7 @@ class Autosideloadly < Formula
   
     def install
       bin.install "install_ipa"
+      bin.install "install_ipa.scpt"
     end
 
     def post_install
