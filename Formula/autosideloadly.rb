@@ -9,6 +9,6 @@ class Autosideloadly < Formula
     end
 
     def post_install
-      system "chmod", "+x", "#{prefix}/install_ipa.scpt"
+      system "chmod", "+x", "#{bin}/install_ipa.scpt"
     end
   end
