@@ -7,4 +7,8 @@ class Autosideloadly < Formula
     def install
       bin.install "install_ipa.scpt"
     end
+
+    def post_install
+      system "chmod", "+x", "#{prefix}/install_ipa.scpt"
+    end
   end
