@@ -1,2 +1,2 @@
 #!/bin/bash
-osascript "$(dirname "$0")/install_ipa.scpt"
+osascript "$(dirname "$0")/install_ipa.scpt" "$1"
